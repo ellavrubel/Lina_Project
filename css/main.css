@@ -50,7 +50,7 @@ ul.header__nav{
 .slider__one, .slider__two{
     position: relative;
 }
-.owl-prev {
+/*.owl-prev {
     position: absolute;
     top: 310px;
     left: 107px;
@@ -89,7 +89,55 @@ button.owl-dot.active span{
 }
 .owl-theme .owl-dots .owl-dot.active span:hover{
     background-color: #5a6268;
-}
+}*/
 .slider__one img{
     width: 100%;
 }
+
+/* section = body__nav */
+
+.body__nav-item{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #777777;
+}
+.body__nav-item span{
+    font-size: 50px;
+}
+.active2{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
