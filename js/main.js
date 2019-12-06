@@ -17,7 +17,7 @@ $(document).ready(function() {
         }
     });
 
-     // $('').after('<span>&frasl;</span>');
+     $('.body__nav-item').after('<span>&frasl;</span>');
 
 
 });
