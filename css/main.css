@@ -16,6 +16,9 @@ h1,h2,h3,h4,h5,h6,p{
     padding-left: 0;
     padding-right: 0;
 }
+.img{
+    display: block;
+}
 /* Header */
 .header{
     height: 90px;
@@ -70,6 +73,7 @@ ul.header__nav{
     width: 20px;
     height: 20px;
     background-color: #000000;
+    border: none;
 }
 .owl-theme .owl-dots .owl-dot span:hover{
     background-color: white;
@@ -86,22 +90,30 @@ ul.header__nav{
 
 /* section = body__nav */
 
-.body__nav-item{
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 15px;
+.body__nav-item, .body__nav-item-last {
+    padding: 25px 30px;
+    font-size: 1em;
+    letter-spacing: 0.09em;
     font-weight: bold;
     text-transform: uppercase;
     color: #777777;
+    text-align: center;
 }
-.body__nav-item span{
-    font-size: 20px;
-    color: #777777;
+
+.border-menu{
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 30px;
 }
 .active2{
     color: black;
 }
 
+/* section = pictures */
+
+.picture__wrapper{
+    height: auto;
+}
 
 
 

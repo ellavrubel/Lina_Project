@@ -18,6 +18,8 @@ $(document).ready(function() {
     });
 
      $('.body__nav-item').after('<span>&frasl;</span>');
+     $('.body__nav-menu > span').toggleClass('slash');
+     $('.slash').css({'fontSize': '50px' , 'color': '#e0e0e0'});
 
 
 });
