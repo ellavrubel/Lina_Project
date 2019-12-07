@@ -111,9 +111,61 @@ ul.header__nav{
 
 /* section = pictures */
 
-.picture__wrapper{
-    height: auto;
+.pictures__item{
+    margin-top: 30px;
 }
+.pictures__btn{
+    width: 125px;
+    height: 30px;
+    background-color: #959595;
+    margin: 35px auto 140px;
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 2px;
+}
+.pictures__btn a{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 0.03em;
+}
+
+/* Footer */
+.footer__logo{
+    border-top: 3px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+
+}
+.logo__down{
+    display: flex;
+    margin: 64px auto 42px;
+}
+.footer__icons{
+    border-bottom: 2px solid #f2f2f2;
+}
+.icon{
+    color: #a0a0a0;
+    font-size: 20px;
+    margin: 25px 55px;
+}
+.footer__text{
+    font-size: 13px;
+    color: #b8b8b8;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.footer__text span{
+    color:#000
+}
+
+
+
+
+
+
 
 
 

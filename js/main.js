@@ -22,4 +22,7 @@ $(document).ready(function() {
      $('.slash').css({'fontSize': '50px' , 'color': '#e0e0e0'});
 
 
+
+
+
 });
