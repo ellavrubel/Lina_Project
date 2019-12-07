@@ -130,6 +130,9 @@ ul.header__nav{
     color: #ffffff;
     letter-spacing: 0.03em;
 }
+.pictures__btn a:hover{
+    text-decoration: none;
+}
 
 /* Footer */
 .footer__logo{
