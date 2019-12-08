@@ -164,14 +164,61 @@ ul.header__nav{
     color:#000
 }
 
+/* Вторая страница - About -
+    - header -
+ */
+.header_about{
+    min-height: 440px;
+}
+.header_about-up{
+    margin-bottom: 30px;
+}
+.header_about_photo img{
+    display: block;
+    margin: 0 auto;
+}
 
+/* section - our-story - */
+.our-story{
+    margin-top: 70px;
+    margin-bottom: 95px;
+}
+.our-story__photo{
+    width: 100%;
+}
+.our-story__title{
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    margin-bottom: 40px;
+}
+.our-story__text{
+    font-size: 18px;
+    color: #777777;
+    margin-bottom: 30px;
+    line-height: 2;
+}
+.statistics-range{
+    margin-bottom: 5px;
+}
 
+/* section - team --  */
 
+.team{
 
-
-
-
-
+}
+.team__title{
+    text-transform: uppercase;
+    letter-spacing: 0.6em;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.team__title-text{
+    font-size: 18px;
+    color: #777777;
+    margin-bottom: 30px;
+    line-height: 2;
+    text-align: center;
+}
 
 
 

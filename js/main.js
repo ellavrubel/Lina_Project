@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    // $('.active').before('<span>-----</span>');
+    $('.first__nav').before('<span>-----</span>');
 
     $('.owl-carousel').owlCarousel({
         loop:false,
