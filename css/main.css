@@ -138,7 +138,6 @@ ul.header__nav{
 .footer__logo{
     border-top: 3px solid #f2f2f2;
     border-bottom: 2px solid #f2f2f2;
-
 }
 .logo__down{
     display: flex;
@@ -204,7 +203,7 @@ ul.header__nav{
 /* section - team --  */
 
 .team{
-
+    background: linear-gradient(to top, #fafafa, #fff);
 }
 .team__title{
     text-transform: uppercase;
@@ -215,14 +214,37 @@ ul.header__nav{
 .team__title-text{
     font-size: 18px;
     color: #777777;
-    margin-bottom: 30px;
+    margin-bottom: 75px;
     line-height: 2;
     text-align: center;
 }
-
-
-
-
+.member{
+    width: 100%;
+    margin-bottom: 35px;
+}
+.member-text{
+    padding-left: 30px;
+    margin-bottom: 75px;
+}
+.member-name{
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    padding-bottom: 10px;
+}
+.member-job{
+    color: #777;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.member-dics{
+    font-size: 18px;
+    color: #777777;
+    padding-bottom: 30px;
+    line-height: 2;
+}
+.lian, .albert, .jenn{
+    background: #fff;
+}
 
 
 
