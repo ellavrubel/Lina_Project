@@ -174,7 +174,7 @@ ul.header__nav{
     margin-bottom: 30px;
 }
 .header_about_photo img{
-    /*display: block;*/
+    width:100vw;
     margin: 0 auto;
 }
 
@@ -203,9 +203,6 @@ ul.header__nav{
 
 /* section - team --  */
 
-.team{
-    background: linear-gradient(to top, #fafafa, #fff);
-}
 .team__title{
     text-transform: uppercase;
     letter-spacing: 0.6em;
