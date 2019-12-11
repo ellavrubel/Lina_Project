@@ -119,10 +119,13 @@ ul.header__nav{
     width: 125px;
     height: 30px;
     background-color: #959595;
-    margin: 35px auto 140px;
+    margin: 35px auto 0;
     text-align: center;
     border-radius: 3px;
     padding-top: 2px;
+}
+.btn-wrapper{
+    padding-bottom: 9.6em;
 }
 .pictures__btn a{
     text-transform: uppercase;
