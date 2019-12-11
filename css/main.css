@@ -8,10 +8,7 @@ ul, li {
     padding: 0;
     margin: 0;
 }
-/*h1,h2,h3,h4,h5,h6,p{
-    margin: 0;
-    padding: 0;
-}*/
+
 .container-fluid{
     padding-left: 0;
     padding-right: 0;
@@ -256,7 +253,7 @@ ul.header__nav{
     background: #fafafa;
 }
 .blog{
-    margin-top: 70px;
+    padding-top: 70px;
 }
 .blog__first{
     padding: 35px;
@@ -468,25 +465,152 @@ input[type="search"]::placeholder {
     padding-bottom: 90px;
 }
 
+/* ----Fotth page----
+  --------------Contacts------------- */
 
+.address{
+    padding-top: 80px;
+}
+.address__title{
+    text-transform: uppercase;
+    color: #767676;
+    letter-spacing: 0.3em;
+    font-size: calc(1rem + 0.25vw);
+}
+.address__title-text{
+    font-weight: lighter;
+    color: #777;
+    font-size:  calc(0.5em + 0.33vw);
+    position: relative;
+    margin-bottom: 4em;
+}
+.address__title-text:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    height: 1px;
+    width: 60px;
+   display: block;
+    background: black;
+}
+.address__text{
+    font-weight: bold;
+    color: #bdbdbd;
+    font-size:  calc(0.5em + 0.3vw);
+    margin-bottom: 2.25em;
+}
+.hours{
+    color: black;
+}
+.tel{
+    font-size:  calc(0.5em + 0.3vw);
+    color: black;
+    font-weight: bold;
+}
+.fax{
+    font-size:  calc(0.5em + 0.33vw);
+    font-weight: bold;
+    color: #777;
+}
 
+#email, #name{
+    width: 45%;
+    border: 1px solid #ebebeb;
+}
+#name{
+    margin-right: 8.5%;
+}
+#message-text{
+    height: 10vw;
+    resize: none;
+    outline: none;
+    border: 1px solid #ebebeb;
+}
 
+.submit__btn{
+    width: 35%;
+    background: black;
+    color: white;
+    border: none;
+}
+.contact_form textarea::-webkit-input-placeholder {
+    font-style: italic;
+    color: #bababa;
+    font-size: calc(0.5em + 0.28vw);
+}
 
+.contact_form textarea:-ms-input-placeholder {
+    font-style: italic;
+    color: #bababa;
+    font-size: calc(0.5em + 0.28vw);
+}
 
+.contact_form textarea::-ms-input-placeholder {
+    font-style: italic;
+    color: #bababa;
+    font-size: calc(0.5em + 0.28vw);
+}
 
+.contact_form textarea::placeholder {
+    font-style: italic;
+    color: #bababa;
+    font-size: calc(0.5em + 0.28vw);
+}
+.contact_form input[type="text"]::-webkit-input-placeholder {
+    font-style: italic;
+    color: #bababa;
+    font-size: calc(0.5em + 0.28vw);
+    padding-left: 10px;
+}
 
+.contact_form input[type="text"]:-ms-input-placeholder {
+    font-style: italic;
+    color: #bababa;
+    font-size: calc(0.5em + 0.28vw);
+    padding-left: 10px;
+}
 
+.contact_form input[type="text"]::-ms-input-placeholder {
+    font-style: italic;
+    color: #bababa;
+    font-size: calc(0.5em + 0.28vw);
+    padding-left: 10px;
+}
 
+.contact_form input[type="text"]::placeholder {
+    font-style: italic;
+    color: #bababa;
+    font-size: calc(0.5em + 0.28vw);
+    padding-left: 10px;
+}
+.contact_form input[type="email"]::-webkit-input-placeholder {
+    font-style: italic;
+    color: #bababa;
+    font-size: calc(0.5em + 0.28vw);
+    padding-left: 10px;
+}
 
+.contact_form input[type="email"]:-ms-input-placeholder {
+    font-style: italic;
+    color: #bababa;
+    font-size: calc(0.5em + 0.28vw);
+    padding-left: 10px;
+}
 
+.contact_form input[type="email"]::-ms-input-placeholder {
+    font-style: italic;
+    color: #bababa;
+    font-size: calc(0.5em + 0.28vw);
+    padding-left: 10px;
+}
 
-
-
-
-
-
-
-
+.contact_form input[type="email"]::placeholder {
+    font-style: italic;
+    color: #bababa;
+    font-size: calc(0.5em + 0.28vw);
+    padding-left: 10px;
+}
 
 
 
