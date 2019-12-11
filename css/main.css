@@ -529,10 +529,15 @@ input[type="search"]::placeholder {
 }
 
 .submit__btn{
-    width: 35%;
+    width: 25%;
     background: black;
     color: white;
     border: none;
+    margin-top: 2em;
+    font-size:  calc(0.5em + 0.2vw);
+    letter-spacing: 0.04em;
+    padding: 7px 0;
+
 }
 .contact_form textarea::-webkit-input-placeholder {
     font-style: italic;
