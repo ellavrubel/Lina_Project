@@ -467,9 +467,12 @@ input[type="search"]::placeholder {
 
 /* ----Fotth page----
   --------------Contacts------------- */
-
+img.contacts_photo{
+    width: 100%;
+}
 .address{
-    padding-top: 80px;
+    padding-top: 100px;
+    padding-bottom: 70px;
 }
 .address__title{
     text-transform: uppercase;
@@ -616,12 +619,39 @@ input[type="search"]::placeholder {
     font-size: calc(0.5em + 0.28vw);
     padding-left: 10px;
 }
+.map-photo img{
+    width: 100%;
+}
+.values{
+    padding-top: calc(4em + 0.5vh);
 
+}
+.values__title{
+    text-align: center;
+    margin-bottom: 3.12rem;
 
-
-
-
-
-
+}
+.values__text{
+    text-align: center;
+    font-size:  calc(0.5em + 0.33vw);
+    font-weight: bold;
+    color: #777;
+    line-height: 2;
+    margin-bottom: 4.06rem;
+}
+img .boy{
+    width: 100%;
+}
+.who-we-are__title{
+    font-size: calc(1rem + 0.05vw);
+    padding-top: 2em;
+    padding-bottom: 2.5em;
+}
+.who-we-are__text{
+    font-size:  calc(0.5em + 0.33vw);
+    font-weight: bold;
+    color: #777;
+    line-height: 2;
+}
 
 
