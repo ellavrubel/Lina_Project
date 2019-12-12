@@ -663,14 +663,23 @@ img .boy{
     .pictures img.pictures__item {
         margin: 30px auto;
     }
-}
+    h5.our-story__title{
+    font-size: calc(0.5rem + 1vw);
+    }
+    .our-story__text{
+        font-size: calc(0.5em + 0.8vw);
+        line-height: 1.5;
+    }
+    .our-skills{
+        padding-top: 1.5vh;
+    }
+
+
 
 @media screen and (max-width: 992px) {
     .pictures img.pictures__item {
         width: 90%;
     }
-
-
     .body__nav-menu {
         width: 100%;
     }
@@ -682,7 +691,52 @@ img .boy{
     .btn-wrapper{
         padding-bottom: calc(2em + 0.22vh);
     }
+    .our-skills{
+        padding-top: 4vh;
+    }
+    .our-story__text {
+        font-size: calc(0.5em + 0.7vw);
+        line-height: 1.5;
+    }
+
+    h5.our-story__title {
+
+        font-size: calc(0.5em + 0.6vh);
+    }
+    .our-story__title{
+        margin-bottom: 1rem;
+    }
+
+    .our-story__text{
+    margin-bottom: 1rem;
+    }
+    h4.team__title{
+        font-size: calc(1rem + 0.5vh);
+        margin-bottom: 1.5em;
+    }
+    .our-story{
+        margin-bottom: calc(2rem + 1.5vh);
+    }
+    .team__title-text{
+        font-size: calc(0.5em + 1vw);
+    }
+    .member-name{
+        font-size: calc(0.5em + 1vw);
+        padding-bottom: 0;
+    }
+    .member-job{
+        font-size: 0.7rem;
+    }
+    .member-dics{
+        font-size: calc(0.5em + 0.7vw);
+    }
+    .member-text{
+        padding-right: 7px;
+    }
 }
+
+
+
 @media screen and (max-width: 768px) {
     .owl-dots{
         right:45%;
@@ -692,7 +746,39 @@ img .boy{
         width: calc(0.5rem + 0.5vh);
         height: calc(0.5rem + 0.5vh);
     }
+    img.our-story__photo{
+        width: 70%;
+        margin: 0 auto 2vh;
+    }
+    .our-story__title{
+        text-align: center;
+    }
+    .member{
+        width: 70%;
+        margin: 0 auto 20px;
+    }
+    .lian, .albert, .jenn{
+        background: #fafafa;
+    }
+    .member-text{
+        padding-left: 5rem;
+    }
+    .member-name{
+        font-size: calc(0.5em + 1.5vw);
+        padding-bottom: 0;
+    }
+    .member-job{
+        font-size: 1rem;
+    }
+    .member-dics{
+        font-size: calc(0.5em + 1vw);
+    }
+    .icon_about{
+        margin: 25px;
+    }
 }
+
+
 
 @media screen and (min-width: 470px) and (max-width: 576px) {
 
@@ -721,67 +807,131 @@ img .boy{
     .icon{
         margin: 25px;
     }
+    .our-story{
+        margin-top: 2rem;
+    }
+    h4.team__title{
+        font-size: calc(1rem + 0.1vh);
+        margin-bottom: 0.8rem;
+    }
+    .team__title-text{
+        margin-top: 30px;
+    }
+    .member-job{
+        font-size: 0.8rem;
+        padding-bottom: 1rem;
+    }
+    .member-dics{
+        padding-bottom: 0;
+    }
 }
 
+
+
 @media screen and (min-width: 320px) and (max-width: 470px) {
-    li.header__menu{
+    li.header__menu {
         margin-right: 5px;
     }
-    .header__nav span{
+
+    .header__nav span {
         margin-right: 5px;
     }
+
     .owl-dots {
         right: 45%;
         bottom: 1vh;
     }
+
     .owl-nav img {
         width: 50%;
         height: 50%;
     }
+
     .owl-prev {
-        top:20%;
+        top: 20%;
         left: 0.8vw;
     }
+
     .owl-next {
-        top:20%;
+        top: 20%;
         right: 0;
     }
-    .owl-theme .owl-dots .owl-dot span{
+
+    .owl-theme .owl-dots .owl-dot span {
         width: calc(0.5rem + 0.2vh);
         height: calc(0.5rem + 0.2vh);
     }
-    span.slash{
-        display: none;
-    }
-    .icon{
-        margin: 25px;
-    }
-    ul.header__nav, .logo{
-        padding-top: 15px;
-    }
-    .header{
-        height: 70px;
-    }
-    .body__nav {
-        padding-top: 1em;
-    }
-    .body__nav-item, .body__nav-item-last{
-        font-size: 0.5em;
-        padding: 5px;
-    }
+
     span.slash {
         display: none;
     }
-    button.pictures__btn{
+
+    .icon {
+        margin: 25px;
+    }
+
+    ul.header__nav, .logo {
+        padding-top: 15px;
+    }
+
+    .header {
+        height: 70px;
+    }
+
+    .body__nav {
+        padding-top: 1em;
+    }
+
+    .body__nav-item, .body__nav-item-last {
+        font-size: 0.5em;
+        padding: 5px;
+    }
+
+    span.slash {
+        display: none;
+    }
+
+    button.pictures__btn {
         margin-top: 15px;
     }
-    .icon{
+
+    .icon {
         margin: 18px;
     }
-    .logo__down{
+
+    .logo__down {
         margin-top: 30px;
     }
+
+    .our-story {
+        margin-top: 1rem;
+    }
+    .our-skills{
+    padding-top: 2vh;
+    }
+    h4.team__title{
+        font-size: 0.8rem;
+        margin-bottom: 0.8rem;
+    }
+    .team__title-text{
+        margin-bottom: 30px;
+    }
+    .member-text{
+        padding-left: 2.7rem;
+    }
+    .member-job{
+        font-size: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .member-dics{
+        padding-bottom: 30px;
+    }
+    .member-text{
+        margin-bottom: 2rem;
+    }
 }
+}
+
 
 
 
