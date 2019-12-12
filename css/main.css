@@ -32,7 +32,7 @@ ul.header__nav{
 }
 .header__menu a {
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: calc(0.5rem + 0.22vw);
     font-weight: bold;
     color: #777777;
     letter-spacing: 0.2em;
@@ -56,14 +56,14 @@ ul.header__nav{
 }
 .owl-prev {
     position: absolute;
-    top: 380px;
-    left: 107px;
+    top: 30%;
+    left: 1.5vw;
 
 }
 .owl-next{
     position: absolute;
-    top:380px;
-    right: 107px;
+    top: 30%;
+    right: 1.5vw;
 }
 .owl-dots{
     position: absolute;
@@ -85,15 +85,18 @@ ul.header__nav{
 .owl-theme .owl-dots .owl-dot.active span:hover{
     background-color: #000;
 }
-.slider__one img{
-    width: 100%;
+img .slider__one {
+    width: 100vw;
 }
 
 /* section = body__nav */
 
+.body__nav{
+    padding-top: calc(1.5em + 1vh);
+}
 .body__nav-item, .body__nav-item-last {
     padding: 25px 30px;
-    font-size: 1em;
+    font-size: calc(0.5em + 0.2vw);
     letter-spacing: 0.09em;
     font-weight: bold;
     text-transform: uppercase;
@@ -102,9 +105,8 @@ ul.header__nav{
 }
 
 .border-menu{
-    border-bottom: 1px solid #e0e0e0;
-    border-top: 1px solid #e0e0e0;
-    margin-top: 30px;
+    border-bottom: 2px solid #e0e0e0;
+    border-top: 2px solid #e0e0e0;
 }
 .active2{
     color: black;
@@ -458,7 +460,7 @@ input[type="search"]::placeholder {
     height: 80px;
 }
 .picture__btn_blog{
-   margin-bottom: 0px;
+   margin-bottom: 0;
     margin-top: 70px;
 }
 .blog_btn-wrapper{
@@ -624,12 +626,10 @@ img.contacts_photo{
 }
 .values{
     padding-top: calc(4em + 0.5vh);
-
 }
 .values__title{
     text-align: center;
     margin-bottom: 3.12rem;
-
 }
 .values__text{
     text-align: center;
@@ -653,5 +653,177 @@ img .boy{
     color: #777;
     line-height: 2;
 }
+
+/* -----MEDIA--------- */
+
+@media screen and (max-width: 1200px) {
+    .pictures img.pictures__item{
+        width: 100%;
+    }
+    .pictures img.pictures__item {
+        margin: 30px auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .pictures img.pictures__item {
+        width: 90%;
+    }
+
+
+    .body__nav-menu {
+        width: 100%;
+    }
+
+    .body__nav-item, .body__nav-item-last {
+        padding: 10px;
+        align-self: center;
+    }
+    .btn-wrapper{
+        padding-bottom: calc(2em + 0.22vh);
+    }
+}
+@media screen and (max-width: 768px) {
+    .owl-dots{
+        right:45%;
+        bottom: 5vh;
+    }
+    .owl-theme .owl-dots .owl-dot span{
+        width: calc(0.5rem + 0.5vh);
+        height: calc(0.5rem + 0.5vh);
+    }
+}
+
+@media screen and (min-width: 470px) and (max-width: 576px) {
+
+    .owl-dots {
+        right: 45%;
+        bottom: 3vh;
+    }
+    .owl-nav img {
+        width: 50%;
+        height: 50%;
+    }
+    .owl-prev {
+        left: 0.8vw;
+    }
+
+    .owl-next {
+        right: 0;
+    }
+    .owl-theme .owl-dots .owl-dot span{
+        width: calc(0.5rem + 0.2vh);
+        height: calc(0.5rem + 0.2vh);
+    }
+    span.slash{
+        display: none;
+    }
+    .icon{
+        margin: 25px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 470px) {
+    li.header__menu{
+        margin-right: 5px;
+    }
+    .header__nav span{
+        margin-right: 5px;
+    }
+    .owl-dots {
+        right: 45%;
+        bottom: 1vh;
+    }
+    .owl-nav img {
+        width: 50%;
+        height: 50%;
+    }
+    .owl-prev {
+        top:20%;
+        left: 0.8vw;
+    }
+    .owl-next {
+        top:20%;
+        right: 0;
+    }
+    .owl-theme .owl-dots .owl-dot span{
+        width: calc(0.5rem + 0.2vh);
+        height: calc(0.5rem + 0.2vh);
+    }
+    span.slash{
+        display: none;
+    }
+    .icon{
+        margin: 25px;
+    }
+    ul.header__nav, .logo{
+        padding-top: 15px;
+    }
+    .header{
+        height: 70px;
+    }
+    .body__nav {
+        padding-top: 1em;
+    }
+    .body__nav-item, .body__nav-item-last{
+        font-size: 0.5em;
+        padding: 5px;
+    }
+    span.slash {
+        display: none;
+    }
+    button.pictures__btn{
+        margin-top: 15px;
+    }
+    .icon{
+        margin: 18px;
+    }
+    .logo__down{
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

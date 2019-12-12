@@ -17,9 +17,11 @@ $(document).ready(function() {
         }
     });
 
+
+
      $('.body__nav-item').after('<span>&frasl;</span>');
      $('.body__nav-menu > span').toggleClass('slash');
-     $('.slash').css({'fontSize': '50px' , 'color': '#e0e0e0'});
+     $('.slash').css({'fontSize': 'calc(2rem + 1vh)' , 'color': '#e0e0e0'});
 
 
 
