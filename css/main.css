@@ -831,6 +831,10 @@ img .boy{
         .picture__btn_blog {
             margin-top: 2rem;
         }
+        #name, #email{
+            width: 100%;
+
+        }
     }
 
 
@@ -925,6 +929,34 @@ img .boy{
         .inst-photo__item {
             width: 110%;
         }
+        .address{
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+        .address__title{
+            font-size: 0.8rem;
+        }
+        .submit__btn{
+            font-size: 0.5rem;
+        }
+        .values {
+            padding-top: 2rem;
+        }
+        .values__title {
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .values__text{
+            margin-bottom: 1.5rem;
+        }
+        .boy{
+            margin: 0 auto;
+        }
+        .who-we-are__title {
+            font-size: calc(1rem + 0.05vw);
+            padding-top: 2em;
+            padding-bottom: 1rem;
+            text-align: center;
     }
 
 
@@ -998,6 +1030,15 @@ img .boy{
 
         .logo__down {
             margin-top: 30px;
+        }
+        .submit__btn{
+            width: 35%;
+        }
+        .who-we-are__text {
+            padding: 1rem;
+        }
+        .who-we-are__title{
+            padding-bottom: 0;
         }
     }
 
@@ -1156,8 +1197,31 @@ img .boy{
         .blog__first_data {
             font-size: calc(0.5rem + 0.2vh);
         }
+        .address__title{
+            font-size: 0.5rem;
+            margin-bottom: 0.75rem;
+        }
+        .address__title-text{
+            font-size: 0.4rem;
+        }
+        .address__text{
+            font-size: 0.4rem;
+        }
+        .submit__btn{
+            width: 45%;
+            font-size: 0.4rem;
+        }
+        .who-we-are__title{
+            padding-bottom: 0.4rem;
+        }
+        .who-we-are__text{
+            padding-left: 0.8rem;
+            padding-right:  0.8rem;
+            text-align: center;
+        }
+
     }
-}
+}}
 
 
 
