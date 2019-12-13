@@ -377,7 +377,7 @@ input[type="search"]::placeholder {
     padding-top: 10px;
     padding-bottom: 10px;
  }
-.recent__posts-title::after, .recent__posts::before{
+.recent__posts-title::after{
     content: '';
     position: absolute;
     background: #ebebeb;
@@ -385,7 +385,7 @@ input[type="search"]::placeholder {
     bottom: -5px;
     width: 10px;
     height: 10px;
-    z-index: -1;
+    z-index: -0.4;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
@@ -657,22 +657,39 @@ img .boy{
 /* -----MEDIA--------- */
 
 @media screen and (max-width: 1200px) {
-    .pictures img.pictures__item{
+    .pictures img.pictures__item {
         width: 100%;
     }
+
     .pictures img.pictures__item {
         margin: 30px auto;
     }
-    h5.our-story__title{
-    font-size: calc(0.5rem + 1vw);
+
+    h5.our-story__title {
+        font-size: calc(0.5rem + 1vw);
     }
-    .our-story__text{
+
+    .our-story__text {
         font-size: calc(0.5em + 0.8vw);
         line-height: 1.5;
     }
-    .our-skills{
+
+    .our-skills {
         padding-top: 1.5vh;
     }
+    .tags__btn_larger {
+        margin-left: 4rem;
+    }
+    .inst-photo__item {
+        width: 120%;
+    }
+    .recent__posts-title::after{
+        left: 8.5rem;
+    }
+    .tags-wrapper{
+        padding: 20px;
+}
+
 
 
 
@@ -680,6 +697,7 @@ img .boy{
     .pictures img.pictures__item {
         width: 90%;
     }
+
     .body__nav-menu {
         width: 100%;
     }
@@ -688,12 +706,15 @@ img .boy{
         padding: 10px;
         align-self: center;
     }
-    .btn-wrapper{
+
+    .btn-wrapper {
         padding-bottom: calc(2em + 0.22vh);
     }
-    .our-skills{
+
+    .our-skills {
         padding-top: 4vh;
     }
+
     .our-story__text {
         font-size: calc(0.5em + 0.7vw);
         line-height: 1.5;
@@ -703,37 +724,110 @@ img .boy{
 
         font-size: calc(0.5em + 0.6vh);
     }
-    .our-story__title{
+
+    .our-story__title {
         margin-bottom: 1rem;
     }
 
-    .our-story__text{
-    margin-bottom: 1rem;
+    .our-story__text {
+        margin-bottom: 1rem;
     }
-    h4.team__title{
+
+    h4.team__title {
         font-size: calc(1rem + 0.5vh);
         margin-bottom: 1.5em;
     }
-    .our-story{
+
+    .our-story {
         margin-bottom: calc(2rem + 1.5vh);
     }
-    .team__title-text{
+
+    .team__title-text {
         font-size: calc(0.5em + 1vw);
     }
-    .member-name{
+
+    .member-name {
         font-size: calc(0.5em + 1vw);
         padding-bottom: 0;
     }
-    .member-job{
+
+    .member-job {
         font-size: 0.7rem;
     }
-    .member-dics{
+
+    .member-dics {
         font-size: calc(0.5em + 0.7vw);
     }
-    .member-text{
+
+    .member-text {
         padding-right: 7px;
     }
+
+    h5.blog__first_title {
+        font-size: calc(1rem + 0.2vh);
+    }
+
+    .blog__first_text {
+        font-size: calc(0.5rem + 0.4vh);
+    }
+
+    .blog__first_data {
+        font-size: calc(0.5rem + 0.4vh);
+    }
+
+    .share {
+        padding-left: 1rem;
+    }
+
+    .recent__posts-title::after {
+        left: 6rem;
+    }
+
+    .recent__posts-title {
+        font-size: calc(1rem + 0.2vw);
+        margin-bottom: 1rem;
+    }
+
+    img.recent__posts_pic {
+        width: 60%;
+    }
+
+    .recent__posts_text {
+        font-size: calc(0.6rem + 0.3vw);
+    }
+
+    .recent__posts_data {
+        font-size: calc(0.6rem + 0.28vw);
+    }
+
+    .recent__posts-padding {
+        padding-bottom: 0.2rem;
+        padding-top: 1rem;
+    }
+    .tags__btn_larger{
+        width: 100px;
+
+    }
+    .tags__btn_negative{
+        height: 100%;
+    }
+    .inst-photo__item{
+       height: 80%;
+    }
+    .inst-photo-wrapper{
+        padding-bottom: 0;
+    }
+    .blog_btn-wrapper{
+        padding-bottom: 2.2rem;
+    }
+    .picture__btn_blog{
+        margin-top: 2rem;
+    }
 }
+
+
+
+
 
 
 
