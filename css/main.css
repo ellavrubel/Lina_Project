@@ -677,353 +677,486 @@ img .boy{
     .our-skills {
         padding-top: 1.5vh;
     }
+
     .tags__btn_larger {
         margin-left: 4rem;
     }
+
     .inst-photo__item {
         width: 120%;
     }
-    .recent__posts-title::after{
-        left: 8.5rem;
-    }
-    .tags-wrapper{
-        padding: 20px;
-}
-
-
-
-
-@media screen and (max-width: 992px) {
-    .pictures img.pictures__item {
-        width: 90%;
-    }
-
-    .body__nav-menu {
-        width: 100%;
-    }
-
-    .body__nav-item, .body__nav-item-last {
-        padding: 10px;
-        align-self: center;
-    }
-
-    .btn-wrapper {
-        padding-bottom: calc(2em + 0.22vh);
-    }
-
-    .our-skills {
-        padding-top: 4vh;
-    }
-
-    .our-story__text {
-        font-size: calc(0.5em + 0.7vw);
-        line-height: 1.5;
-    }
-
-    h5.our-story__title {
-
-        font-size: calc(0.5em + 0.6vh);
-    }
-
-    .our-story__title {
-        margin-bottom: 1rem;
-    }
-
-    .our-story__text {
-        margin-bottom: 1rem;
-    }
-
-    h4.team__title {
-        font-size: calc(1rem + 0.5vh);
-        margin-bottom: 1.5em;
-    }
-
-    .our-story {
-        margin-bottom: calc(2rem + 1.5vh);
-    }
-
-    .team__title-text {
-        font-size: calc(0.5em + 1vw);
-    }
-
-    .member-name {
-        font-size: calc(0.5em + 1vw);
-        padding-bottom: 0;
-    }
-
-    .member-job {
-        font-size: 0.7rem;
-    }
-
-    .member-dics {
-        font-size: calc(0.5em + 0.7vw);
-    }
-
-    .member-text {
-        padding-right: 7px;
-    }
-
-    h5.blog__first_title {
-        font-size: calc(1rem + 0.2vh);
-    }
-
-    .blog__first_text {
-        font-size: calc(0.5rem + 0.4vh);
-    }
-
-    .blog__first_data {
-        font-size: calc(0.5rem + 0.4vh);
-    }
-
-    .share {
-        padding-left: 1rem;
-    }
 
     .recent__posts-title::after {
-        left: 6rem;
+        left: 8.5rem;
     }
 
-    .recent__posts-title {
-        font-size: calc(1rem + 0.2vw);
-        margin-bottom: 1rem;
+    .tags-wrapper {
+        padding: 20px;
     }
 
-    img.recent__posts_pic {
-        width: 60%;
+
+    @media screen and (max-width: 992px) {
+        .pictures img.pictures__item {
+            width: 90%;
+        }
+
+        .body__nav-menu {
+            width: 100%;
+        }
+
+        .body__nav-item, .body__nav-item-last {
+            padding: 10px;
+            align-self: center;
+        }
+
+        .btn-wrapper {
+            padding-bottom: calc(2em + 0.22vh);
+        }
+
+        .our-skills {
+            padding-top: 4vh;
+        }
+
+        .our-story__text {
+            font-size: calc(0.5em + 0.7vw);
+            line-height: 1.5;
+        }
+
+        h5.our-story__title {
+
+            font-size: calc(0.5em + 0.6vh);
+        }
+
+        .our-story__title {
+            margin-bottom: 1rem;
+        }
+
+        .our-story__text {
+            margin-bottom: 1rem;
+        }
+
+        h4.team__title {
+            font-size: calc(1rem + 0.5vh);
+            margin-bottom: 1.5em;
+        }
+
+        .our-story {
+            margin-bottom: calc(2rem + 1.5vh);
+        }
+
+        .team__title-text {
+            font-size: calc(0.5em + 1vw);
+        }
+
+        .member-name {
+            font-size: calc(0.5em + 1vw);
+            padding-bottom: 0;
+        }
+
+        .member-job {
+            font-size: 0.7rem;
+        }
+
+        .member-dics {
+            font-size: calc(0.5em + 0.7vw);
+        }
+
+        .member-text {
+            padding-right: 7px;
+        }
+
+        h5.blog__first_title {
+            font-size: calc(1rem + 0.2vh);
+        }
+
+        .blog__first_text {
+            font-size: calc(0.5rem + 0.4vh);
+        }
+
+        .blog__first_data {
+            font-size: calc(0.5rem + 0.4vh);
+        }
+
+        .share {
+            padding-left: 1rem;
+        }
+
+        .recent__posts-title::after {
+            left: 6rem;
+        }
+
+        .recent__posts-title {
+            font-size: calc(1rem + 0.2vw);
+            margin-bottom: 1rem;
+        }
+
+        img.recent__posts_pic {
+            width: 60%;
+        }
+
+        .recent__posts_text {
+            font-size: calc(0.6rem + 0.3vw);
+        }
+
+        .recent__posts_data {
+            font-size: calc(0.6rem + 0.28vw);
+        }
+
+        .recent__posts-padding {
+            padding-bottom: 0.2rem;
+            padding-top: 1rem;
+        }
+
+        .tags__btn_larger {
+            width: 100px;
+
+        }
+
+        .tags__btn_negative {
+            height: 100%;
+        }
+
+        .inst-photo__item {
+            height: 80%;
+        }
+
+        .inst-photo-wrapper {
+            padding-bottom: 0;
+        }
+
+        .blog_btn-wrapper {
+            padding-bottom: 2.2rem;
+        }
+
+        .picture__btn_blog {
+            margin-top: 2rem;
+        }
     }
 
-    .recent__posts_text {
-        font-size: calc(0.6rem + 0.3vw);
-    }
 
-    .recent__posts_data {
-        font-size: calc(0.6rem + 0.28vw);
-    }
+    @media screen and (max-width: 768px) {
+        .owl-dots {
+            right: 45%;
+            bottom: 5vh;
+        }
 
-    .recent__posts-padding {
-        padding-bottom: 0.2rem;
-        padding-top: 1rem;
-    }
-    .tags__btn_larger{
-        width: 100px;
+        .owl-theme .owl-dots .owl-dot span {
+            width: calc(0.5rem + 0.5vh);
+            height: calc(0.5rem + 0.5vh);
+        }
 
-    }
-    .tags__btn_negative{
-        height: 100%;
-    }
-    .inst-photo__item{
-       height: 80%;
-    }
-    .inst-photo-wrapper{
-        padding-bottom: 0;
-    }
-    .blog_btn-wrapper{
-        padding-bottom: 2.2rem;
-    }
-    .picture__btn_blog{
-        margin-top: 2rem;
-    }
-}
+        img.our-story__photo {
+            width: 70%;
+            margin: 0 auto 2vh;
+        }
 
+        .our-story__title {
+            text-align: center;
+        }
 
+        .member {
+            width: 70%;
+            margin: 0 auto 20px;
+        }
 
+        .lian, .albert, .jenn {
+            background: #fafafa;
+        }
 
+        .member-text {
+            padding-left: 5rem;
+        }
 
+        .member-name {
+            font-size: calc(0.5em + 1.5vw);
+            padding-bottom: 0;
+        }
 
+        .member-job {
+            font-size: 1rem;
+        }
 
-@media screen and (max-width: 768px) {
-    .owl-dots{
-        right:45%;
-        bottom: 5vh;
-    }
-    .owl-theme .owl-dots .owl-dot span{
-        width: calc(0.5rem + 0.5vh);
-        height: calc(0.5rem + 0.5vh);
-    }
-    img.our-story__photo{
-        width: 70%;
-        margin: 0 auto 2vh;
-    }
-    .our-story__title{
-        text-align: center;
-    }
-    .member{
-        width: 70%;
-        margin: 0 auto 20px;
-    }
-    .lian, .albert, .jenn{
-        background: #fafafa;
-    }
-    .member-text{
-        padding-left: 5rem;
-    }
-    .member-name{
-        font-size: calc(0.5em + 1.5vw);
-        padding-bottom: 0;
-    }
-    .member-job{
-        font-size: 1rem;
-    }
-    .member-dics{
-        font-size: calc(0.5em + 1vw);
-    }
-    .icon_about{
-        margin: 25px;
-    }
-}
+        .member-dics {
+            font-size: calc(0.5em + 1vw);
+        }
 
+        .icon_about {
+            margin: 25px;
+        }
 
+        .blog-pic {
+            margin: 0 auto;
+        }
 
-@media screen and (min-width: 470px) and (max-width: 576px) {
+        .share {
+            padding-left: 10rem;
+        }
 
-    .owl-dots {
-        right: 45%;
-        bottom: 3vh;
-    }
-    .owl-nav img {
-        width: 50%;
-        height: 50%;
-    }
-    .owl-prev {
-        left: 0.8vw;
-    }
+        .search__form {
+            display: none;
+        }
 
-    .owl-next {
-        right: 0;
+        .blog__first_btn {
+            margin-bottom: 1rem;
+        }
+
+        .recent__posts-title::after {
+            left: 15rem;
+        }
+
+        img.recent__posts_pic {
+            width: auto;
+        }
+
+        .recent__posts_text {
+            margin-bottom: 2rem;
+        }
+
+        .tags__btn_negative {
+            height: 28px;
+            width: 128px;
+            margin-left: 3rem;
+        }
+
+        .tags__btn_larger {
+            margin-left: 1rem;
+        }
+
+        .inst-photo__item {
+            width: 110%;
+        }
     }
-    .owl-theme .owl-dots .owl-dot span{
-        width: calc(0.5rem + 0.2vh);
-        height: calc(0.5rem + 0.2vh);
-    }
-    span.slash{
-        display: none;
-    }
-    .icon{
-        margin: 25px;
-    }
-    .our-story{
-        margin-top: 2rem;
-    }
-    h4.team__title{
-        font-size: calc(1rem + 0.1vh);
-        margin-bottom: 0.8rem;
-    }
-    .team__title-text{
-        margin-top: 30px;
-    }
-    .member-job{
-        font-size: 0.8rem;
-        padding-bottom: 1rem;
-    }
-    .member-dics{
-        padding-bottom: 0;
-    }
-}
 
 
 
-@media screen and (min-width: 320px) and (max-width: 470px) {
-    li.header__menu {
-        margin-right: 5px;
+    @media screen and (min-width: 470px) and (max-width: 576px) {
+
+        .owl-dots {
+            right: 45%;
+            bottom: 3vh;
+        }
+
+        .owl-nav img {
+            width: 50%;
+            height: 50%;
+        }
+
+        .owl-prev {
+            left: 0.8vw;
+        }
+
+        .owl-next {
+            right: 0;
+        }
+
+        .owl-theme .owl-dots .owl-dot span {
+            width: calc(0.5rem + 0.2vh);
+            height: calc(0.5rem + 0.2vh);
+        }
+
+        span.slash {
+            display: none;
+        }
+
+        .icon {
+            margin: 25px;
+        }
+
+        .our-story {
+            margin-top: 2rem;
+        }
+
+        h4.team__title {
+            font-size: calc(1rem + 0.1vh);
+            margin-bottom: 0.8rem;
+        }
+
+        .team__title-text {
+            margin-top: 30px;
+        }
+
+        .member-job {
+            font-size: 0.8rem;
+            padding-bottom: 1rem;
+        }
+
+        .member-dics {
+            padding-bottom: 0;
+        }
+
+        .blog {
+            padding-top: 2rem;
+        }
+
+        .user-name {
+            margin-bottom: 0;
+        }
+
+        .recent__posts-title::after {
+            left: 13.5rem;
+        }
+
+        .logo__down {
+            margin-top: 30px;
+        }
     }
 
-    .header__nav span {
-        margin-right: 5px;
-    }
 
-    .owl-dots {
-        right: 45%;
-        bottom: 1vh;
-    }
 
-    .owl-nav img {
-        width: 50%;
-        height: 50%;
-    }
+    @media screen and (min-width: 320px) and (max-width: 470px) {
+        li.header__menu {
+            margin-right: 5px;
+        }
 
-    .owl-prev {
-        top: 20%;
-        left: 0.8vw;
-    }
+        .header__nav span {
+            margin-right: 5px;
+        }
 
-    .owl-next {
-        top: 20%;
-        right: 0;
-    }
+        .owl-dots {
+            right: 45%;
+            bottom: 1vh;
+        }
 
-    .owl-theme .owl-dots .owl-dot span {
-        width: calc(0.5rem + 0.2vh);
-        height: calc(0.5rem + 0.2vh);
-    }
+        .owl-nav img {
+            width: 50%;
+            height: 50%;
+        }
 
-    span.slash {
-        display: none;
-    }
+        .owl-prev {
+            top: 20%;
+            left: 0.8vw;
+        }
 
-    .icon {
-        margin: 25px;
-    }
+        .owl-next {
+            top: 20%;
+            right: 0;
+        }
 
-    ul.header__nav, .logo {
-        padding-top: 15px;
-    }
+        .owl-theme .owl-dots .owl-dot span {
+            width: calc(0.5rem + 0.2vh);
+            height: calc(0.5rem + 0.2vh);
+        }
 
-    .header {
-        height: 70px;
-    }
+        span.slash {
+            display: none;
+        }
 
-    .body__nav {
-        padding-top: 1em;
-    }
+        .icon {
+            margin: 25px;
+        }
 
-    .body__nav-item, .body__nav-item-last {
-        font-size: 0.5em;
-        padding: 5px;
-    }
+        ul.header__nav, .logo {
+            padding-top: 15px;
+        }
 
-    span.slash {
-        display: none;
-    }
+        .header {
+            height: 70px;
+        }
 
-    button.pictures__btn {
-        margin-top: 15px;
-    }
+        .body__nav {
+            padding-top: 1em;
+        }
 
-    .icon {
-        margin: 18px;
-    }
+        .body__nav-item, .body__nav-item-last {
+            font-size: 0.5em;
+            padding: 5px;
+        }
 
-    .logo__down {
-        margin-top: 30px;
-    }
+        span.slash {
+            display: none;
+        }
 
-    .our-story {
-        margin-top: 1rem;
+        button.pictures__btn {
+            margin-top: 15px;
+        }
+
+        .icon {
+            margin: 18px;
+        }
+
+        .logo__down {
+            margin-top: 30px;
+        }
+
+        .our-story {
+            margin-top: 1rem;
+        }
+
+        .our-skills {
+            padding-top: 2vh;
+        }
+
+        h4.team__title {
+            font-size: 0.8rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .team__title-text {
+            margin-bottom: 30px;
+        }
+
+        .member-text {
+            padding-left: 2.7rem;
+        }
+
+        .member-job {
+            font-size: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+
+        .member-dics {
+            padding-bottom: 30px;
+        }
+
+        .member-text {
+            margin-bottom: 2rem;
+        }
+
+        .blog {
+            padding-top: 2rem;
+        }
+
+        .blog__first_text {
+            font-size: calc(0.5rem + 0.1vh);
+        }
+
+        .user-name {
+            margin-bottom: 0;
+        }
+
+        .blog__first_btn {
+            font-size: calc(0.5rem + 0.1vh)
+        }
+
+        .blog__first {
+            padding: 1rem;
+        }
+
+        .share {
+            padding-left: 2rem;
+        }
+
+        .recent__posts_text {
+            margin-bottom: 0.8rem;
+        }
+
+        .recent__posts-title::after {
+            left: 8.3rem;
+        }
+
+        .tags-wrapper {
+            padding: 0;
+        }
+
+        .tags__btn {
+            width: 80px;
+            font-size: 0.55rem;
+        }
+
+        .blog__first_data {
+            font-size: calc(0.5rem + 0.2vh);
+        }
     }
-    .our-skills{
-    padding-top: 2vh;
-    }
-    h4.team__title{
-        font-size: 0.8rem;
-        margin-bottom: 0.8rem;
-    }
-    .team__title-text{
-        margin-bottom: 30px;
-    }
-    .member-text{
-        padding-left: 2.7rem;
-    }
-    .member-job{
-        font-size: 0.5rem;
-        padding-bottom: 0.5rem;
-    }
-    .member-dics{
-        padding-bottom: 30px;
-    }
-    .member-text{
-        margin-bottom: 2rem;
-    }
-}
 }
 
 
